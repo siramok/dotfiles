@@ -13,5 +13,6 @@ cp $PWD/sway/config ~/.config/sway/config
 cp $PWD/.zshrc ~/.zshrc
 
 # Requires sudo
-cp $PWD/makepkg.conf /etc/makepkg.conf
-cp $PWD/profile /etc/profile
+cp $PWD/etc/makepkg.conf /etc/makepkg.conf
+cp $PWD/etc/mkinitcpio.conf /etc/mkinitcpio.conf
+cp $PWD/etc/profile /etc/profile
