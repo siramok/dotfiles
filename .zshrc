@@ -21,6 +21,7 @@ source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Aliases
-alias ls="lsd -a"
 alias cat="bat"
+alias ls="lsd -a"
+alias neofetch="neofetch | lolcat"
 alias paru="paru --noconfirm"
