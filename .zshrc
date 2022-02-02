@@ -15,13 +15,17 @@ SAVEHIST=2000
 # Starship Prompt
 eval "$(starship init zsh)"
 
-# zsh plugins
+# zsh Plugins
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Zoxide Init
+eval "$(zoxide init zsh)"
+
 # Aliases
 alias cat="bat"
+alias cd="z"
 alias ls="lsd -a"
 alias neofetch="neofetch | lolcat"
 alias paru="paru --noconfirm"
